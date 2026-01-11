@@ -71,15 +71,15 @@ void countRows(int seats[][10], int rows, int cols) {
 
         if(count == 0)
             empty++;
-        else if(count == cols)
+            else if(count == cols)
             full++;
         else
             partial++;
     }
 
     cout << " Row Status  " << endl;
-    cout << "Fully Occupied Rows: " << full << endl;
-    cout << "Partially Occupied Rows: " << partial << endl;
+        cout << "Fully Occupied Rows: " << full << endl;
+      cout << "Partially Occupied Rows: " << partial << endl;
     cout << "Empty Rows: " << empty << endl;
 }
 
